@@ -1,0 +1,15 @@
+h1{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color:black;
+    color:white;
+    border: dashed;
+    border-color: aqua;
+}
+li{
+    color:rgb(237, 101, 237);
+    font-family: serif;
+    font-style: italic;
+}

@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color:white;
+}
+
+h1{
+    color:turquoise;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-style:italic;
+    color:gold;
+    border-color: blueviolet;
+    border-style: dashed;
+}
+
+

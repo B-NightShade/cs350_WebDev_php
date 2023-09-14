@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <h1>Order Some Coffee!</h1>
+    <form action="hw04.php" method="POST">
+        name:<input type="text" name="userName"><br>
+        type:<select name="types">
+            <option value="Espresso">Espresso</option>
+            <option value="mocha">Mocha</option>
+            <option value="Americano">Americano</option>
+            <option value="Cappuccino">Cappuccino</option>
+            <option value="Latte">Latte</option>
+        </select><br>
+        <p>
+        size:<br>
+        <input type="radio" name="size" value="Small"  id="radio">small<br>
+        <input type="radio" name="size" value="medium" id="radio" checked="medium">Medium<br>
+        <input type="radio" name="size" value="Large"  id="radio" >Large<br>
+        <input type="radio" name="size" value="x-Large" id="radio">x-Large<br>
+        </p>
+        <p>
+        Extras: <br>
+        <input type="checkbox" name="extras[]" value="cream" id="checkbox">cream<br>
+        <input type="checkbox" name="extras[]" value="sugar" id="checkbox">sugar<br>
+        <input type="checkbox" name="extras[]" value="cinnamon" id="checkbox">cinnamon<br>
+        <input type="checkbox" name="extras[]" value="nutmeg" id="checkbox">nutmeg<br>
+        <input type="checkbox" name="extras[]" value="wipped cream" id="checkbox">wipped cream<br>
+    </p>
+    <input type="submit" value="Order">
+    </form>
+</body>
+</html>
